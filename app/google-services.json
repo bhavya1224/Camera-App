@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700054637232",
+    "firebase_url": "https://camera-1364f.firebaseio.com",
+    "project_id": "camera-1364f",
+    "storage_bucket": "camera-1364f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700054637232:android:df22ebedafef81e5",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700054637232-2a8h9qftef08jkm2uo3b87e0bdespb8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "b1bdaecd53338a8c17c3185276d025af5a28cc7e"
+          }
+        },
+        {
+          "client_id": "700054637232-1idohlqsa3tcpppo4rk12mfk86jip8cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBYGJlj7Ye6iJudY2mM4shiXpGEjRye2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700054637232-1idohlqsa3tcpppo4rk12mfk86jip8cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

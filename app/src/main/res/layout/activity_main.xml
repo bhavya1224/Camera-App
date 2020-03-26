@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/v1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="57dp"
+        android:layout_toRightOf="@+id/caption"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/caption"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginBottom="54dp"
+        android:hint="Add Caption Here..."
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="30sp"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/captureImage"
+        android:layout_width="match_parent"
+        android:layout_height="608dp"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/clickButton"
+        android:layout_width="106dp"
+        android:layout_height="91dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+
+</RelativeLayout>
